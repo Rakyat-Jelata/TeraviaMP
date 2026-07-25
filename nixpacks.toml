@@ -1,2 +1,5 @@
-[phases.setup]
-nixPkgs = ["php", "phpPackages.pdo_pgsql", "phpPackages.pgsql"]
+[providers]
+providers = ["php"]
+
+[variables]
+NIXPACKS_PHP_EXTENSIONS = "pdo, pdo_pgsql, pgsql"
