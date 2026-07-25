@@ -1,9 +1,17 @@
-php
 <?php
-// index.php - Gerbang Utama Aplikasi
+// index.php - Gerbang Utama Aman via JavaScript Redirect
 session_start();
-
-// Redirect otomatis ke halaman home di folder views/
-header("Location: /views/home.php");
-exit;
 ?>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0;url=/views/home.php">
+    <title>Memuat...</title>
+</head>
+<body>
+    <script>
+        window.location.href = "/views/home.php";
+    </script>
+</body>
+</html>
