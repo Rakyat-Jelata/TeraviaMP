@@ -1,4 +1,4 @@
-<?php
+<?php 
 // index.php - Gerbang Utama Aman via JavaScript Redirect
 session_start();
 ?>
